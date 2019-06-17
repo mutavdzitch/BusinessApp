@@ -1,0 +1,9 @@
+D:\ICT\ASP.NET\Project\MarkoMutavdzic12516\Application\bin\Debug\netcoreapp2.1\Application.deps.json
+D:\ICT\ASP.NET\Project\MarkoMutavdzic12516\Application\bin\Debug\netcoreapp2.1\Application.dll
+D:\ICT\ASP.NET\Project\MarkoMutavdzic12516\Application\bin\Debug\netcoreapp2.1\Application.pdb
+D:\ICT\ASP.NET\Project\MarkoMutavdzic12516\Application\obj\Debug\netcoreapp2.1\Application.csprojAssemblyReference.cache
+D:\ICT\ASP.NET\Project\MarkoMutavdzic12516\Application\obj\Debug\netcoreapp2.1\Application.csproj.CoreCompileInputs.cache
+D:\ICT\ASP.NET\Project\MarkoMutavdzic12516\Application\obj\Debug\netcoreapp2.1\Application.AssemblyInfoInputs.cache
+D:\ICT\ASP.NET\Project\MarkoMutavdzic12516\Application\obj\Debug\netcoreapp2.1\Application.AssemblyInfo.cs
+D:\ICT\ASP.NET\Project\MarkoMutavdzic12516\Application\obj\Debug\netcoreapp2.1\Application.dll
+D:\ICT\ASP.NET\Project\MarkoMutavdzic12516\Application\obj\Debug\netcoreapp2.1\Application.pdb
