@@ -21,3 +21,5 @@ D:\ICT\ASP.NET\Project\MarkoMutavdzic12516\Api\obj\Debug\netcoreapp2.1\Api.Razor
 D:\ICT\ASP.NET\Project\MarkoMutavdzic12516\Api\obj\Debug\netcoreapp2.1\Api.csproj.CopyComplete
 D:\ICT\ASP.NET\Project\MarkoMutavdzic12516\Api\obj\Debug\netcoreapp2.1\Api.dll
 D:\ICT\ASP.NET\Project\MarkoMutavdzic12516\Api\obj\Debug\netcoreapp2.1\Api.pdb
+D:\ICT\ASP.NET\Project\MarkoMutavdzic12516\Api\bin\Debug\netcoreapp2.1\Api.xml
+D:\ICT\ASP.NET\Project\MarkoMutavdzic12516\Api\obj\Debug\netcoreapp2.1\Api.xml

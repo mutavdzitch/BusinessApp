@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Threading.Tasks;
 using Application.Commands;
 using EfCommands;
@@ -88,9 +90,14 @@ namespace Api
             services.AddTransient<IDeleteProjectCompanyCommand, EfDeleteProjectCompanyCommand>();
 
 
+            //Swagger
+
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new Info { Title = "Business API", Version = "v1" });
+                c.SwaggerDoc("v1", new Info { Title = "Business Api", Version = "v1" });
+                var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+                var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
+                c.IncludeXmlComments(xmlPath);
             });
         }
 
@@ -108,11 +115,14 @@ namespace Api
 
             app.UseHttpsRedirection();
             app.UseMvc();
-
             app.UseSwagger();
+
             app.UseSwaggerUI(c =>
             {
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
+
+
+
             });
         }
     }
