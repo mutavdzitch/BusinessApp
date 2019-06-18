@@ -49,7 +49,7 @@ namespace Api.Controllers
 
         // GET api/projectCompanies/5
         [HttpGet("{id}")]
-        public IActionResult Get(int id)
+        public ActionResult<ProjectCompanyDto> Get(int id)
         {
             try
             {

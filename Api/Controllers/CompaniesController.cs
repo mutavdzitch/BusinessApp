@@ -52,7 +52,7 @@ namespace Api.Controllers
 
         // GET api/companies/5
         [HttpGet("{id}")]
-        public IActionResult Get(int id)
+        public ActionResult<CompanyDto> Get(int id)
         {
             try
             {

@@ -52,7 +52,7 @@ namespace Api.Controllers
 
         // GET api/tasks/5
         [HttpGet("{id}")]
-        public IActionResult Get(int id)
+        public ActionResult<TaskDto> Get(int id)
         {
             try
             {

@@ -52,7 +52,7 @@ namespace Api.Controllers
 
         // GET api/vocations/5
         [HttpGet("{id}")]
-        public IActionResult Get(int id)
+        public ActionResult<VocationDto> Get(int id)
         {
             try
             {

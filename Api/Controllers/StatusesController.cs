@@ -52,7 +52,7 @@ namespace Api.Controllers
 
         // GET api/statuses/5
         [HttpGet("{id}")]
-        public IActionResult Get(int id)
+        public ActionResult<StatusDto> Get(int id)
         {
             try
             {
